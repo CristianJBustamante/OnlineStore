@@ -19,6 +19,7 @@ function App() {
         <ToastContainer />
         <Routes>
           <Route path='/' element={<ItemListContainer />} />
+          <Route path='/OnlineStore' element={<ItemListContainer />} />
           <Route path='/distributor/:idDistributor' element={<ItemListContainer />} />
           <Route path='/item/:itemId' element={<ItemDetailContainer />} />
           <Route path='/cart' element={<Cart />} /> 
